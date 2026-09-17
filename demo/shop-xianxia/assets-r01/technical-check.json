@@ -1,0 +1,465 @@
+{
+  "technicalStatus": "passed",
+  "visualApproval": "not-assessed",
+  "assets": [
+    {
+      "key": "panel",
+      "sha256": "c2056803ccc8d8081ce92d75fcbc91d2234051849b8d323cb3f44fdddcfb402d",
+      "pixelSize": [
+        1716,
+        916
+      ],
+      "byteCount": 1771003,
+      "alpha": {
+        "range": [
+          0,
+          255
+        ],
+        "transparent": 263539,
+        "semitransparent": 1307993,
+        "opaque": 324
+      },
+      "visibleBounds": [
+        16,
+        26,
+        1698,
+        886
+      ]
+    },
+    {
+      "key": "title",
+      "sha256": "e2fc8e83fa884f200fe5bbc52421b693fbebf6b1320ef12d9db123b9e41366a8",
+      "pixelSize": [
+        1774,
+        887
+      ],
+      "byteCount": 903002,
+      "alpha": {
+        "range": [
+          0,
+          255
+        ],
+        "transparent": 1062429,
+        "semitransparent": 510401,
+        "opaque": 708
+      },
+      "visibleBounds": [
+        138,
+        35,
+        1687,
+        863
+      ]
+    },
+    {
+      "key": "service",
+      "sha256": "535cfbf2a3ffcddfe021895a61a1b0dfd2aec71d4e4e42787dd9ced7263f3bae",
+      "pixelSize": [
+        1317,
+        1194
+      ],
+      "byteCount": 871158,
+      "alpha": {
+        "range": [
+          0,
+          255
+        ],
+        "transparent": 971386,
+        "semitransparent": 600737,
+        "opaque": 375
+      },
+      "visibleBounds": [
+        25,
+        52,
+        1283,
+        1178
+      ]
+    },
+    {
+      "key": "close",
+      "sha256": "e6bbece2f1b5702376ad7b9cad26ebb13ca9cfa885bc83211dfae2be1ece5e76",
+      "pixelSize": [
+        1316,
+        1195
+      ],
+      "byteCount": 774131,
+      "alpha": {
+        "range": [
+          0,
+          255
+        ],
+        "transparent": 1113147,
+        "semitransparent": 459153,
+        "opaque": 320
+      },
+      "visibleBounds": [
+        91,
+        17,
+        1190,
+        1155
+      ]
+    },
+    {
+      "key": "tab-selected",
+      "sha256": "350cc87966ef1eb7fcfb9043f7e25f57671d51aa196037211b33f16f6bf1ab23",
+      "pixelSize": [
+        2087,
+        753
+      ],
+      "byteCount": 1086355,
+      "alpha": {
+        "range": [
+          0,
+          255
+        ],
+        "transparent": 653730,
+        "semitransparent": 917637,
+        "opaque": 144
+      },
+      "visibleBounds": [
+        45,
+        106,
+        2042,
+        753
+      ]
+    },
+    {
+      "key": "tab-normal",
+      "sha256": "37ca3a49cd4bf73826707b7fa50caa23607c8a1b80ef259deebc14b3ca7a3ad7",
+      "pixelSize": [
+        2048,
+        768
+      ],
+      "byteCount": 1438248,
+      "alpha": {
+        "range": [
+          0,
+          254
+        ],
+        "transparent": 623616,
+        "semitransparent": 949248,
+        "opaque": 0
+      },
+      "visibleBounds": [
+        27,
+        23,
+        2020,
+        744
+      ]
+    },
+    {
+      "key": "icon-diamond",
+      "sha256": "db53b9b33c9e83c3bcc7426d45e758ec743fb7c28b6a563212077a7b4a46e673",
+      "pixelSize": [
+        1355,
+        1161
+      ],
+      "byteCount": 882667,
+      "alpha": {
+        "range": [
+          0,
+          255
+        ],
+        "transparent": 989565,
+        "semitransparent": 583064,
+        "opaque": 526
+      },
+      "visibleBounds": [
+        0,
+        17,
+        1331,
+        1161
+      ]
+    },
+    {
+      "key": "icon-coin",
+      "sha256": "a3c97624e3e824e152734ce493a37ec221f0d457ef2781c1ad4800a1d5eae2d6",
+      "pixelSize": [
+        1292,
+        1217
+      ],
+      "byteCount": 828106,
+      "alpha": {
+        "range": [
+          0,
+          255
+        ],
+        "transparent": 995957,
+        "semitransparent": 576053,
+        "opaque": 354
+      },
+      "visibleBounds": [
+        163,
+        82,
+        1177,
+        1161
+      ]
+    },
+    {
+      "key": "icon-energy",
+      "sha256": "bb53e713c1e9c0cb91ea3267132affbca4f1f137438736955987169bd687e817",
+      "pixelSize": [
+        1334,
+        1179
+      ],
+      "byteCount": 484889,
+      "alpha": {
+        "range": [
+          0,
+          255
+        ],
+        "transparent": 1246354,
+        "semitransparent": 325419,
+        "opaque": 1013
+      },
+      "visibleBounds": [
+        121,
+        19,
+        1185,
+        1129
+      ]
+    },
+    {
+      "key": "vip-band",
+      "sha256": "a2e64ca8393d39b9c56810ae096a46fb72a3924a9e37bbe05dfa5f98d99fad9c",
+      "pixelSize": [
+        2172,
+        724
+      ],
+      "byteCount": 558949,
+      "alpha": {
+        "range": [
+          0,
+          255
+        ],
+        "transparent": 1175361,
+        "semitransparent": 395068,
+        "opaque": 2099
+      },
+      "visibleBounds": [
+        17,
+        65,
+        2156,
+        607
+      ]
+    },
+    {
+      "key": "vip-badge",
+      "sha256": "654aa819bb24e171e10a2c4beab8e88e73d1bd21dcdb151d5c642c6f72e10ac7",
+      "pixelSize": [
+        1410,
+        1115
+      ],
+      "byteCount": 1748697,
+      "alpha": {
+        "range": [
+          0,
+          255
+        ],
+        "transparent": 704108,
+        "semitransparent": 867611,
+        "opaque": 431
+      },
+      "visibleBounds": [
+        0,
+        0,
+        1409,
+        1095
+      ]
+    },
+    {
+      "key": "privilege",
+      "sha256": "5f520211e9324fd9b53cd41f3ad1890046da034c0f833d7371656a2262919f32",
+      "pixelSize": [
+        2156,
+        729
+      ],
+      "byteCount": 851368,
+      "alpha": {
+        "range": [
+          0,
+          255
+        ],
+        "transparent": 924887,
+        "semitransparent": 646728,
+        "opaque": 109
+      },
+      "visibleBounds": [
+        353,
+        39,
+        1805,
+        697
+      ]
+    },
+    {
+      "key": "card-base",
+      "sha256": "38e3690bccb5df2100cb6676bfd4b257c0c5c49b4d4cf390bf5864bf79da9467",
+      "pixelSize": [
+        1006,
+        1564
+      ],
+      "byteCount": 2034899,
+      "alpha": {
+        "range": [
+          0,
+          255
+        ],
+        "transparent": 167765,
+        "semitransparent": 1401689,
+        "opaque": 3930
+      },
+      "visibleBounds": [
+        31,
+        29,
+        976,
+        1536
+      ]
+    },
+    {
+      "key": "buy-base",
+      "sha256": "b58e46ad948f22744d371939e0f0ae0b93d992807c1d0c94dd136c8f3d5db5cd",
+      "pixelSize": [
+        2071,
+        759
+      ],
+      "byteCount": 872169,
+      "alpha": {
+        "range": [
+          0,
+          255
+        ],
+        "transparent": 672469,
+        "semitransparent": 897413,
+        "opaque": 2007
+      },
+      "visibleBounds": [
+        133,
+        25,
+        1975,
+        759
+      ]
+    },
+    {
+      "key": "gems-small",
+      "sha256": "cb2fe0e3b80c517817d07cc42ea0a1ca251a3816497aa7cdbeaa57367ff9f1f5",
+      "pixelSize": [
+        1277,
+        1232
+      ],
+      "byteCount": 774379,
+      "alpha": {
+        "range": [
+          0,
+          255
+        ],
+        "transparent": 1077822,
+        "semitransparent": 495432,
+        "opaque": 10
+      },
+      "visibleBounds": [
+        0,
+        39,
+        1253,
+        1200
+      ]
+    },
+    {
+      "key": "gems-single",
+      "sha256": "1e3297233e59d5fa1703056bd81b9a2a1a14a96ca736279e257eb90ff621e000",
+      "pixelSize": [
+        1536,
+        1024
+      ],
+      "byteCount": 1356285,
+      "alpha": {
+        "range": [
+          0,
+          254
+        ],
+        "transparent": 1051843,
+        "semitransparent": 521021,
+        "opaque": 0
+      },
+      "visibleBounds": [
+        0,
+        5,
+        1522,
+        1024
+      ]
+    },
+    {
+      "key": "gems-pair",
+      "sha256": "5f6a34df03f4cf41b2a9024227799aa764afdd12b746eaf718c0f5d5e6495762",
+      "pixelSize": [
+        1419,
+        1108
+      ],
+      "byteCount": 854258,
+      "alpha": {
+        "range": [
+          0,
+          255
+        ],
+        "transparent": 1042481,
+        "semitransparent": 529356,
+        "opaque": 415
+      },
+      "visibleBounds": [
+        0,
+        49,
+        1363,
+        1081
+      ]
+    },
+    {
+      "key": "gems-cluster",
+      "sha256": "39bb59a04805fcef4ec6a0c4d551498bcd086f1f5adbc4b6ecd2afd0236911de",
+      "pixelSize": [
+        1361,
+        1156
+      ],
+      "byteCount": 1032491,
+      "alpha": {
+        "range": [
+          0,
+          255
+        ],
+        "transparent": 948284,
+        "semitransparent": 624692,
+        "opaque": 340
+      },
+      "visibleBounds": [
+        0,
+        71,
+        1330,
+        1122
+      ]
+    },
+    {
+      "key": "gems-pouch",
+      "sha256": "90cb638d1f8ee1a5f92e6741b9d46f10ba91a0051bd00ad517c881c6d4019731",
+      "pixelSize": [
+        1368,
+        1149
+      ],
+      "byteCount": 1715317,
+      "alpha": {
+        "range": [
+          0,
+          255
+        ],
+        "transparent": 707134,
+        "semitransparent": 864088,
+        "opaque": 610
+      },
+      "visibleBounds": [
+        27,
+        45,
+        1336,
+        1122
+      ]
+    }
+  ],
+  "limitations": [
+    "No semantic, edge-quality, provenance-authenticity or layout approval inferred."
+  ]
+}

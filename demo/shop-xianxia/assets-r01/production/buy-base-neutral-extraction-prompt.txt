@@ -1,0 +1,1 @@
+Use case: background-extraction. Remove the neutral grey background from this single golden game button. Output real transparent PNG, retaining original gold and amber button artwork with smooth natural clean edges. Keep the interior solid and opaque. Keep proportions, all ornaments and blank center. No extra elements.

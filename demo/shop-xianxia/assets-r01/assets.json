@@ -1,0 +1,720 @@
+{
+  "format": "ui-skin-assets-v1",
+  "id": "shop-xianxia-assets-r01",
+  "designSize": [
+    1870,
+    841
+  ],
+  "coordinates": "top-left-y-down",
+  "reviewStatus": "pending-user-review",
+  "assets": [
+    {
+      "key": "panel",
+      "label": "主面板",
+      "file": "png/panel.png",
+      "sha256": "c2056803ccc8d8081ce92d75fcbc91d2234051849b8d323cb3f44fdddcfb402d",
+      "pixelSize": [
+        1716,
+        916
+      ],
+      "displaySize": [
+        1540.394973,
+        822.262118
+      ],
+      "transparency": "required",
+      "resizeMode": "uniform",
+      "states": [
+        "normal"
+      ],
+      "contentRect": [
+        22,
+        30,
+        1671,
+        845
+      ],
+      "provenance": {
+        "method": "builtin-imagegen-redraw-and-extraction",
+        "master": "../design-r01/master.png",
+        "masterSha256": "9635a0cbe2cb007b0fae174c2b67b974cf70cf1ace7ba4b732855a276bcd313b",
+        "generatedSource": "production/panel-refined.png",
+        "promptFiles": [
+          "production/generation-log.json"
+        ],
+        "localPixelEdits": false,
+        "byteIdentity": "PNG bytes identical to selected generated output"
+      },
+      "notes": "保留原始透明留白与 Alpha。displaySize 含留白；contentRect 是主体摆放参考，不是裁切范围。底板有补绘重建，并非母版逐像素裁切。"
+    },
+    {
+      "key": "title",
+      "label": "充值标题",
+      "file": "png/title.png",
+      "sha256": "e2fc8e83fa884f200fe5bbc52421b693fbebf6b1320ef12d9db123b9e41366a8",
+      "pixelSize": [
+        1774,
+        887
+      ],
+      "displaySize": [
+        244.174157,
+        122.087079
+      ],
+      "transparency": "required",
+      "resizeMode": "uniform",
+      "states": [
+        "normal"
+      ],
+      "contentRect": [
+        189,
+        108,
+        1424,
+        673
+      ],
+      "provenance": {
+        "method": "builtin-imagegen-reference-extraction",
+        "master": "../design-r01/master.png",
+        "masterSha256": "9635a0cbe2cb007b0fae174c2b67b974cf70cf1ace7ba4b732855a276bcd313b",
+        "generatedSource": "production/title-generated.png",
+        "promptFiles": [
+          "production/title-prompt.txt"
+        ],
+        "localPixelEdits": false,
+        "byteIdentity": "PNG bytes identical to selected generated output"
+      },
+      "notes": "保留原始透明留白与 Alpha。displaySize 含留白；contentRect 是主体摆放参考，不是裁切范围。依照母版局部由内置工具分离，细节可能有重绘差异。"
+    },
+    {
+      "key": "service",
+      "label": "客服按钮",
+      "file": "png/service.png",
+      "sha256": "535cfbf2a3ffcddfe021895a61a1b0dfd2aec71d4e4e42787dd9ced7263f3bae",
+      "pixelSize": [
+        1317,
+        1194
+      ],
+      "displaySize": [
+        133.367089,
+        120.911392
+      ],
+      "transparency": "required",
+      "resizeMode": "uniform",
+      "states": [
+        "normal"
+      ],
+      "contentRect": [
+        224,
+        146,
+        869,
+        863
+      ],
+      "provenance": {
+        "method": "builtin-imagegen-reference-extraction",
+        "master": "../design-r01/master.png",
+        "masterSha256": "9635a0cbe2cb007b0fae174c2b67b974cf70cf1ace7ba4b732855a276bcd313b",
+        "generatedSource": "production/service-generated.png",
+        "promptFiles": [
+          "production/service-prompt.txt"
+        ],
+        "localPixelEdits": false,
+        "byteIdentity": "PNG bytes identical to selected generated output"
+      },
+      "notes": "保留原始透明留白与 Alpha。displaySize 含留白；contentRect 是主体摆放参考，不是裁切范围。依照母版局部由内置工具分离，细节可能有重绘差异。"
+    },
+    {
+      "key": "close",
+      "label": "关闭按钮",
+      "file": "png/close.png",
+      "sha256": "e6bbece2f1b5702376ad7b9cad26ebb13ca9cfa885bc83211dfae2be1ece5e76",
+      "pixelSize": [
+        1316,
+        1195
+      ],
+      "displaySize": [
+        152.378947,
+        138.368421
+      ],
+      "transparency": "required",
+      "resizeMode": "uniform",
+      "states": [
+        "normal"
+      ],
+      "contentRect": [
+        275,
+        208,
+        760,
+        753
+      ],
+      "provenance": {
+        "method": "builtin-imagegen-reference-extraction",
+        "master": "../design-r01/master.png",
+        "masterSha256": "9635a0cbe2cb007b0fae174c2b67b974cf70cf1ace7ba4b732855a276bcd313b",
+        "generatedSource": "production/close-generated.png",
+        "promptFiles": [
+          "production/close-prompt.txt"
+        ],
+        "localPixelEdits": false,
+        "byteIdentity": "PNG bytes identical to selected generated output"
+      },
+      "notes": "保留原始透明留白与 Alpha。displaySize 含留白；contentRect 是主体摆放参考，不是裁切范围。依照母版局部由内置工具分离，细节可能有重绘差异。"
+    },
+    {
+      "key": "tab-selected",
+      "label": "选中页签底",
+      "file": "png/tab-selected.png",
+      "sha256": "350cc87966ef1eb7fcfb9043f7e25f57671d51aa196037211b33f16f6bf1ab23",
+      "pixelSize": [
+        2087,
+        753
+      ],
+      "displaySize": [
+        287.211452,
+        103.627323
+      ],
+      "transparency": "required",
+      "resizeMode": "uniform",
+      "states": [
+        "selected"
+      ],
+      "contentRect": [
+        48,
+        110,
+        1991,
+        485
+      ],
+      "provenance": {
+        "method": "builtin-imagegen-redraw-and-extraction",
+        "master": "../design-r01/master.png",
+        "masterSha256": "9635a0cbe2cb007b0fae174c2b67b974cf70cf1ace7ba4b732855a276bcd313b",
+        "generatedSource": "production/tab-selected-generated.png",
+        "promptFiles": [
+          "production/tab-selected-prompt.txt"
+        ],
+        "localPixelEdits": false,
+        "byteIdentity": "PNG bytes identical to selected generated output"
+      },
+      "notes": "保留原始透明留白与 Alpha。displaySize 含留白；contentRect 是主体摆放参考，不是裁切范围。底板有补绘重建，并非母版逐像素裁切。"
+    },
+    {
+      "key": "tab-normal",
+      "label": "未选中页签底",
+      "file": "png/tab-normal.png",
+      "sha256": "37ca3a49cd4bf73826707b7fa50caa23607c8a1b80ef259deebc14b3ca7a3ad7",
+      "pixelSize": [
+        2048,
+        768
+      ],
+      "displaySize": [
+        282.127702,
+        105.797888
+      ],
+      "transparency": "required",
+      "resizeMode": "uniform",
+      "states": [
+        "unselected"
+      ],
+      "contentRect": [
+        29,
+        129,
+        1989,
+        495
+      ],
+      "provenance": {
+        "method": "builtin-imagegen-redraw-and-extraction",
+        "master": "../design-r01/master.png",
+        "masterSha256": "9635a0cbe2cb007b0fae174c2b67b974cf70cf1ace7ba4b732855a276bcd313b",
+        "generatedSource": "production/tab-normal-generated.png",
+        "promptFiles": [
+          "production/tab-normal-prompt.txt"
+        ],
+        "localPixelEdits": false,
+        "byteIdentity": "PNG bytes identical to selected generated output"
+      },
+      "notes": "保留原始透明留白与 Alpha。displaySize 含留白；contentRect 是主体摆放参考，不是裁切范围。底板有补绘重建，并非母版逐像素裁切。"
+    },
+    {
+      "key": "icon-diamond",
+      "label": "钻石图标",
+      "file": "png/icon-diamond.png",
+      "sha256": "db53b9b33c9e83c3bcc7426d45e758ec743fb7c28b6a563212077a7b4a46e673",
+      "pixelSize": [
+        1355,
+        1161
+      ],
+      "displaySize": [
+        74.148279,
+        63.532215
+      ],
+      "transparency": "required",
+      "resizeMode": "uniform",
+      "states": [
+        "normal"
+      ],
+      "contentRect": [
+        101,
+        143,
+        1133,
+        886
+      ],
+      "provenance": {
+        "method": "builtin-imagegen-reference-extraction",
+        "master": "../design-r01/master.png",
+        "masterSha256": "9635a0cbe2cb007b0fae174c2b67b974cf70cf1ace7ba4b732855a276bcd313b",
+        "generatedSource": "production/icon-diamond-generated.png",
+        "promptFiles": [
+          "production/icon-diamond-prompt.txt"
+        ],
+        "localPixelEdits": false,
+        "byteIdentity": "PNG bytes identical to selected generated output"
+      },
+      "notes": "保留原始透明留白与 Alpha。displaySize 含留白；contentRect 是主体摆放参考，不是裁切范围。依照母版局部由内置工具分离，细节可能有重绘差异。"
+    },
+    {
+      "key": "icon-coin",
+      "label": "金币图标",
+      "file": "png/icon-coin.png",
+      "sha256": "a3c97624e3e824e152734ce493a37ec221f0d457ef2781c1ad4800a1d5eae2d6",
+      "pixelSize": [
+        1292,
+        1217
+      ],
+      "displaySize": [
+        74.682081,
+        70.346821
+      ],
+      "transparency": "required",
+      "resizeMode": "uniform",
+      "states": [
+        "normal"
+      ],
+      "contentRect": [
+        211,
+        178,
+        865,
+        844
+      ],
+      "provenance": {
+        "method": "builtin-imagegen-reference-extraction",
+        "master": "../design-r01/master.png",
+        "masterSha256": "9635a0cbe2cb007b0fae174c2b67b974cf70cf1ace7ba4b732855a276bcd313b",
+        "generatedSource": "production/icon-coin-generated.png",
+        "promptFiles": [
+          "production/icon-coin-prompt.txt"
+        ],
+        "localPixelEdits": false,
+        "byteIdentity": "PNG bytes identical to selected generated output"
+      },
+      "notes": "保留原始透明留白与 Alpha。displaySize 含留白；contentRect 是主体摆放参考，不是裁切范围。依照母版局部由内置工具分离，细节可能有重绘差异。"
+    },
+    {
+      "key": "icon-energy",
+      "label": "体力图标",
+      "file": "png/icon-energy.png",
+      "sha256": "bb53e713c1e9c0cb91ea3267132affbca4f1f137438736955987169bd687e817",
+      "pixelSize": [
+        1334,
+        1179
+      ],
+      "displaySize": [
+        76.228571,
+        67.371429
+      ],
+      "transparency": "required",
+      "resizeMode": "uniform",
+      "states": [
+        "normal"
+      ],
+      "contentRect": [
+        325,
+        191,
+        735,
+        861
+      ],
+      "provenance": {
+        "method": "builtin-imagegen-reference-extraction",
+        "master": "../design-r01/master.png",
+        "masterSha256": "9635a0cbe2cb007b0fae174c2b67b974cf70cf1ace7ba4b732855a276bcd313b",
+        "generatedSource": "production/icon-energy-generated.png",
+        "promptFiles": [
+          "production/icon-energy-prompt.txt"
+        ],
+        "localPixelEdits": false,
+        "byteIdentity": "PNG bytes identical to selected generated output"
+      },
+      "notes": "保留原始透明留白与 Alpha。displaySize 含留白；contentRect 是主体摆放参考，不是裁切范围。依照母版局部由内置工具分离，细节可能有重绘差异。"
+    },
+    {
+      "key": "vip-band",
+      "label": "VIP 横条",
+      "file": "png/vip-band.png",
+      "sha256": "a2e64ca8393d39b9c56810ae096a46fb72a3924a9e37bbe05dfa5f98d99fad9c",
+      "pixelSize": [
+        2172,
+        724
+      ],
+      "displaySize": [
+        1348.032045,
+        449.344015
+      ],
+      "transparency": "required",
+      "resizeMode": "uniform",
+      "states": [
+        "normal"
+      ],
+      "contentRect": [
+        25,
+        270,
+        2122,
+        181
+      ],
+      "provenance": {
+        "method": "builtin-imagegen-redraw-and-extraction",
+        "master": "../design-r01/master.png",
+        "masterSha256": "9635a0cbe2cb007b0fae174c2b67b974cf70cf1ace7ba4b732855a276bcd313b",
+        "generatedSource": "production/vip-band-transparent-r01.png",
+        "promptFiles": [
+          "production/vip-band-prompt.txt",
+          "production/vip-band-extraction-prompt.txt"
+        ],
+        "localPixelEdits": false,
+        "byteIdentity": "PNG bytes identical to selected generated output"
+      },
+      "notes": "保留原始透明留白与 Alpha。displaySize 含留白；contentRect 是主体摆放参考，不是裁切范围。底板有补绘重建，并非母版逐像素裁切。"
+    },
+    {
+      "key": "vip-badge",
+      "label": "VIP 徽章底",
+      "file": "png/vip-badge.png",
+      "sha256": "654aa819bb24e171e10a2c4beab8e88e73d1bd21dcdb151d5c642c6f72e10ac7",
+      "pixelSize": [
+        1410,
+        1115
+      ],
+      "displaySize": [
+        116.005984,
+        91.735228
+      ],
+      "transparency": "required",
+      "resizeMode": "uniform",
+      "states": [
+        "normal"
+      ],
+      "contentRect": [
+        36,
+        8,
+        1337,
+        1083
+      ],
+      "provenance": {
+        "method": "builtin-imagegen-redraw-and-extraction",
+        "master": "../design-r01/master.png",
+        "masterSha256": "9635a0cbe2cb007b0fae174c2b67b974cf70cf1ace7ba4b732855a276bcd313b",
+        "generatedSource": "production/vip-badge-generated.png",
+        "promptFiles": [
+          "production/vip-badge-prompt.txt"
+        ],
+        "localPixelEdits": false,
+        "byteIdentity": "PNG bytes identical to selected generated output"
+      },
+      "notes": "保留原始透明留白与 Alpha。displaySize 含留白；contentRect 是主体摆放参考，不是裁切范围。底板有补绘重建，并非母版逐像素裁切。"
+    },
+    {
+      "key": "privilege",
+      "label": "贵族特权按钮",
+      "file": "png/privilege.png",
+      "sha256": "5f520211e9324fd9b53cd41f3ad1890046da034c0f833d7371656a2262919f32",
+      "pixelSize": [
+        2156,
+        729
+      ],
+      "displaySize": [
+        292.364395,
+        98.85605
+      ],
+      "transparency": "required",
+      "resizeMode": "uniform",
+      "states": [
+        "normal"
+      ],
+      "contentRect": [
+        359,
+        137,
+        1438,
+        448
+      ],
+      "provenance": {
+        "method": "builtin-imagegen-reference-extraction",
+        "master": "../design-r01/master.png",
+        "masterSha256": "9635a0cbe2cb007b0fae174c2b67b974cf70cf1ace7ba4b732855a276bcd313b",
+        "generatedSource": "production/privilege-generated.png",
+        "promptFiles": [
+          "production/privilege-prompt.txt"
+        ],
+        "localPixelEdits": false,
+        "byteIdentity": "PNG bytes identical to selected generated output"
+      },
+      "notes": "保留原始透明留白与 Alpha。displaySize 含留白；contentRect 是主体摆放参考，不是裁切范围。依照母版局部由内置工具分离，细节可能有重绘差异。"
+    },
+    {
+      "key": "card-base",
+      "label": "商品卡底",
+      "file": "png/card-base.png",
+      "sha256": "38e3690bccb5df2100cb6676bfd4b257c0c5c49b4d4cf390bf5864bf79da9467",
+      "pixelSize": [
+        1006,
+        1564
+      ],
+      "displaySize": [
+        263.833689,
+        410.17484
+      ],
+      "transparency": "required",
+      "resizeMode": "uniform",
+      "states": [
+        "normal"
+      ],
+      "contentRect": [
+        34,
+        32,
+        938,
+        1500
+      ],
+      "provenance": {
+        "method": "builtin-imagegen-redraw-and-extraction",
+        "master": "../design-r01/master.png",
+        "masterSha256": "9635a0cbe2cb007b0fae174c2b67b974cf70cf1ace7ba4b732855a276bcd313b",
+        "generatedSource": "production/card-base-transparent-r01.png",
+        "promptFiles": [
+          "production/card-base-prompt.txt",
+          "production/card-base-extraction-prompt.txt"
+        ],
+        "localPixelEdits": false,
+        "byteIdentity": "PNG bytes identical to selected generated output"
+      },
+      "notes": "保留原始透明留白与 Alpha。displaySize 含留白；contentRect 是主体摆放参考，不是裁切范围。底板有补绘重建，并非母版逐像素裁切。"
+    },
+    {
+      "key": "buy-base",
+      "label": "购买按钮底",
+      "file": "png/buy-base.png",
+      "sha256": "b58e46ad948f22744d371939e0f0ae0b93d992807c1d0c94dd136c8f3d5db5cd",
+      "pixelSize": [
+        2071,
+        759
+      ],
+      "displaySize": [
+        249.768844,
+        91.537688
+      ],
+      "transparency": "required",
+      "resizeMode": "uniform",
+      "states": [
+        "normal"
+      ],
+      "contentRect": [
+        140,
+        101,
+        1791,
+        502
+      ],
+      "provenance": {
+        "method": "builtin-imagegen-redraw-and-extraction",
+        "master": "../design-r01/master.png",
+        "masterSha256": "9635a0cbe2cb007b0fae174c2b67b974cf70cf1ace7ba4b732855a276bcd313b",
+        "generatedSource": "production/buy-base-neutral-transparent.png",
+        "promptFiles": [
+          "production/buy-base-prompt.txt",
+          "production/buy-base-neutral-extraction-prompt.txt",
+          "production/buy-base-extraction-prompt.txt",
+          "production/buy-base-neutral-prompt.txt"
+        ],
+        "localPixelEdits": false,
+        "byteIdentity": "PNG bytes identical to selected generated output"
+      },
+      "notes": "保留原始透明留白与 Alpha。displaySize 含留白；contentRect 是主体摆放参考，不是裁切范围。底板有补绘重建，并非母版逐像素裁切。"
+    },
+    {
+      "key": "gems-small",
+      "label": "10 钻商品插画",
+      "file": "png/gems-small.png",
+      "sha256": "cb2fe0e3b80c517817d07cc42ea0a1ca251a3816497aa7cdbeaa57367ff9f1f5",
+      "pixelSize": [
+        1277,
+        1232
+      ],
+      "displaySize": [
+        163.446593,
+        157.686924
+      ],
+      "transparency": "required",
+      "resizeMode": "uniform",
+      "states": [
+        "normal"
+      ],
+      "contentRect": [
+        108,
+        125,
+        1086,
+        1015
+      ],
+      "provenance": {
+        "method": "builtin-imagegen-reference-extraction",
+        "master": "../design-r01/master.png",
+        "masterSha256": "9635a0cbe2cb007b0fae174c2b67b974cf70cf1ace7ba4b732855a276bcd313b",
+        "generatedSource": "production/gems-small-generated.png",
+        "promptFiles": [
+          "production/gems-small-prompt.txt"
+        ],
+        "localPixelEdits": false,
+        "byteIdentity": "PNG bytes identical to selected generated output"
+      },
+      "notes": "保留原始透明留白与 Alpha。displaySize 含留白；contentRect 是主体摆放参考，不是裁切范围。依照母版局部由内置工具分离，细节可能有重绘差异。"
+    },
+    {
+      "key": "gems-single",
+      "label": "30 钻商品插画",
+      "file": "png/gems-single.png",
+      "sha256": "1e3297233e59d5fa1703056bd81b9a2a1a14a96ca736279e257eb90ff621e000",
+      "pixelSize": [
+        1536,
+        1024
+      ],
+      "displaySize": [
+        200.861538,
+        133.907692
+      ],
+      "transparency": "required",
+      "resizeMode": "uniform",
+      "states": [
+        "normal"
+      ],
+      "contentRect": [
+        253,
+        149,
+        1040,
+        765
+      ],
+      "provenance": {
+        "method": "builtin-imagegen-reference-extraction",
+        "master": "../design-r01/master.png",
+        "masterSha256": "9635a0cbe2cb007b0fae174c2b67b974cf70cf1ace7ba4b732855a276bcd313b",
+        "generatedSource": "production/gems-single-generated.png",
+        "promptFiles": [
+          "production/gems-single-prompt.txt"
+        ],
+        "localPixelEdits": false,
+        "byteIdentity": "PNG bytes identical to selected generated output"
+      },
+      "notes": "保留原始透明留白与 Alpha。displaySize 含留白；contentRect 是主体摆放参考，不是裁切范围。依照母版局部由内置工具分离，细节可能有重绘差异。"
+    },
+    {
+      "key": "gems-pair",
+      "label": "60 钻商品插画",
+      "file": "png/gems-pair.png",
+      "sha256": "5f6a34df03f4cf41b2a9024227799aa764afdd12b746eaf718c0f5d5e6495762",
+      "pixelSize": [
+        1419,
+        1108
+      ],
+      "displaySize": [
+        201.015088,
+        156.958927
+      ],
+      "transparency": "required",
+      "resizeMode": "uniform",
+      "states": [
+        "normal"
+      ],
+      "contentRect": [
+        122,
+        126,
+        1193,
+        856
+      ],
+      "provenance": {
+        "method": "builtin-imagegen-reference-extraction",
+        "master": "../design-r01/master.png",
+        "masterSha256": "9635a0cbe2cb007b0fae174c2b67b974cf70cf1ace7ba4b732855a276bcd313b",
+        "generatedSource": "production/gems-pair-generated.png",
+        "promptFiles": [
+          "production/gems-pair-prompt.txt"
+        ],
+        "localPixelEdits": false,
+        "byteIdentity": "PNG bytes identical to selected generated output"
+      },
+      "notes": "保留原始透明留白与 Alpha。displaySize 含留白；contentRect 是主体摆放参考，不是裁切范围。依照母版局部由内置工具分离，细节可能有重绘差异。"
+    },
+    {
+      "key": "gems-cluster",
+      "label": "180 钻商品插画",
+      "file": "png/gems-cluster.png",
+      "sha256": "39bb59a04805fcef4ec6a0c4d551498bcd086f1f5adbc4b6ecd2afd0236911de",
+      "pixelSize": [
+        1361,
+        1156
+      ],
+      "displaySize": [
+        221.875228,
+        188.455373
+      ],
+      "transparency": "required",
+      "resizeMode": "uniform",
+      "states": [
+        "normal"
+      ],
+      "contentRect": [
+        137,
+        194,
+        1098,
+        817
+      ],
+      "provenance": {
+        "method": "builtin-imagegen-reference-extraction",
+        "master": "../design-r01/master.png",
+        "masterSha256": "9635a0cbe2cb007b0fae174c2b67b974cf70cf1ace7ba4b732855a276bcd313b",
+        "generatedSource": "production/gems-cluster-generated.png",
+        "promptFiles": [
+          "production/gems-cluster-prompt.txt"
+        ],
+        "localPixelEdits": false,
+        "byteIdentity": "PNG bytes identical to selected generated output"
+      },
+      "notes": "保留原始透明留白与 Alpha。displaySize 含留白；contentRect 是主体摆放参考，不是裁切范围。依照母版局部由内置工具分离，细节可能有重绘差异。"
+    },
+    {
+      "key": "gems-pouch",
+      "label": "300 钻商品插画",
+      "file": "png/gems-pouch.png",
+      "sha256": "90cb638d1f8ee1a5f92e6741b9d46f10ba91a0051bd00ad517c881c6d4019731",
+      "pixelSize": [
+        1368,
+        1149
+      ],
+      "displaySize": [
+        236.3904,
+        198.5472
+      ],
+      "transparency": "required",
+      "resizeMode": "uniform",
+      "states": [
+        "normal"
+      ],
+      "contentRect": [
+        50,
+        69,
+        1250,
+        1050
+      ],
+      "provenance": {
+        "method": "builtin-imagegen-reference-extraction",
+        "master": "../design-r01/master.png",
+        "masterSha256": "9635a0cbe2cb007b0fae174c2b67b974cf70cf1ace7ba4b732855a276bcd313b",
+        "generatedSource": "production/gems-pouch-generated.png",
+        "promptFiles": [
+          "production/gems-pouch-prompt.txt"
+        ],
+        "localPixelEdits": false,
+        "byteIdentity": "PNG bytes identical to selected generated output"
+      },
+      "notes": "保留原始透明留白与 Alpha。displaySize 含留白；contentRect 是主体摆放参考，不是裁切范围。依照母版局部由内置工具分离，细节可能有重绘差异。"
+    }
+  ]
+}

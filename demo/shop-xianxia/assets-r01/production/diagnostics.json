@@ -1,0 +1,156 @@
+{
+  "status": "blocked-output-quality",
+  "approvedAssets": 0,
+  "items": [
+    {
+      "file": "panel-generated.png",
+      "visualStatus": "rejected-colored-edge-fringe",
+      "sha256": "73b48161be28cb1e20ecf76ccf4b04db9f6b00f253400857d7da4c262d076698",
+      "pixelSize": [
+        1717,
+        916
+      ],
+      "byteCount": 1955662,
+      "alpha": {
+        "range": [
+          0,
+          255
+        ],
+        "transparent": 187066,
+        "semitransparent": 1385649,
+        "opaque": 57
+      },
+      "visibleBounds": [
+        0,
+        0,
+        1717,
+        890
+      ]
+    },
+    {
+      "file": "panel-refined.png",
+      "visualStatus": "rejected-colored-edge-fringe",
+      "sha256": "c2056803ccc8d8081ce92d75fcbc91d2234051849b8d323cb3f44fdddcfb402d",
+      "pixelSize": [
+        1716,
+        916
+      ],
+      "byteCount": 1771003,
+      "alpha": {
+        "range": [
+          0,
+          255
+        ],
+        "transparent": 263539,
+        "semitransparent": 1307993,
+        "opaque": 324
+      },
+      "visibleBounds": [
+        16,
+        26,
+        1698,
+        886
+      ]
+    },
+    {
+      "file": "card-base-transparent-r01.png",
+      "visualStatus": "rejected-colored-edge-fringe",
+      "sha256": "38e3690bccb5df2100cb6676bfd4b257c0c5c49b4d4cf390bf5864bf79da9467",
+      "pixelSize": [
+        1006,
+        1564
+      ],
+      "byteCount": 2034899,
+      "alpha": {
+        "range": [
+          0,
+          255
+        ],
+        "transparent": 167765,
+        "semitransparent": 1401689,
+        "opaque": 3930
+      },
+      "visibleBounds": [
+        31,
+        29,
+        976,
+        1536
+      ]
+    },
+    {
+      "file": "buy-base-transparent-r01.png",
+      "visualStatus": "rejected-colored-edge-fringe",
+      "sha256": "a56413e06e610667b880f8cc2c28afc0f08ec1420d44d53279fba24ec18560f3",
+      "pixelSize": [
+        2017,
+        780
+      ],
+      "byteCount": 773336,
+      "alpha": {
+        "range": [
+          0,
+          255
+        ],
+        "transparent": 773506,
+        "semitransparent": 799664,
+        "opaque": 90
+      },
+      "visibleBounds": [
+        0,
+        29,
+        1821,
+        780
+      ]
+    },
+    {
+      "file": "vip-band-transparent-r01.png",
+      "visualStatus": "rejected-colored-edge-fringe",
+      "sha256": "a2e64ca8393d39b9c56810ae096a46fb72a3924a9e37bbe05dfa5f98d99fad9c",
+      "pixelSize": [
+        2172,
+        724
+      ],
+      "byteCount": 558949,
+      "alpha": {
+        "range": [
+          0,
+          255
+        ],
+        "transparent": 1175361,
+        "semitransparent": 395068,
+        "opaque": 2099
+      },
+      "visibleBounds": [
+        17,
+        65,
+        2156,
+        607
+      ]
+    },
+    {
+      "file": "buy-base-neutral-transparent.png",
+      "visualStatus": "rejected-colored-edge-fringe",
+      "sha256": "b58e46ad948f22744d371939e0f0ae0b93d992807c1d0c94dd136c8f3d5db5cd",
+      "pixelSize": [
+        2071,
+        759
+      ],
+      "byteCount": 872169,
+      "alpha": {
+        "range": [
+          0,
+          255
+        ],
+        "transparent": 672469,
+        "semitransparent": 897413,
+        "opaque": 2007
+      },
+      "visibleBounds": [
+        133,
+        25,
+        1975,
+        759
+      ]
+    }
+  ]
+}

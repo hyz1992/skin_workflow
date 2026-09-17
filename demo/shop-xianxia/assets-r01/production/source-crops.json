@@ -1,0 +1,242 @@
+{
+  "card": {
+    "file": "demo/shop-xianxia/assets-r01/production/card-reference.png",
+    "sha256": "118d4f92219840481d687e6b22b411c54ce677a67259e5040c81395562c9edb4",
+    "pixelSize": [
+      264,
+      410
+    ],
+    "byteCount": 171432,
+    "alpha": {
+      "range": [
+        255,
+        255
+      ],
+      "transparent": 0,
+      "semitransparent": 0,
+      "opaque": 108240
+    },
+    "visibleBounds": [
+      0,
+      0,
+      264,
+      410
+    ],
+    "provenance": {
+      "sourceName": "master.png",
+      "sourceSHA256": "9635a0cbe2cb007b0fae174c2b67b974cf70cf1ace7ba4b732855a276bcd313b",
+      "sourcePixelSize": [
+        1870,
+        841
+      ],
+      "sourceRect": [
+        282,
+        323,
+        264,
+        410
+      ],
+      "operation": "RGBA pixel crop; no background removal",
+      "decodedPixelsEqual": true
+    }
+  },
+  "buy": {
+    "file": "demo/shop-xianxia/assets-r01/production/buy-reference.png",
+    "sha256": "c539efeac7fd9ff734ef4468b140f7a02eaf521697adc1eeb4ca50de4d3b8bba",
+    "pixelSize": [
+      225,
+      87
+    ],
+    "byteCount": 27153,
+    "alpha": {
+      "range": [
+        255,
+        255
+      ],
+      "transparent": 0,
+      "semitransparent": 0,
+      "opaque": 19575
+    },
+    "visibleBounds": [
+      0,
+      0,
+      225,
+      87
+    ],
+    "provenance": {
+      "sourceName": "master.png",
+      "sourceSHA256": "9635a0cbe2cb007b0fae174c2b67b974cf70cf1ace7ba4b732855a276bcd313b",
+      "sourcePixelSize": [
+        1870,
+        841
+      ],
+      "sourceRect": [
+        304,
+        630,
+        225,
+        87
+      ],
+      "operation": "RGBA pixel crop; no background removal",
+      "decodedPixelsEqual": true
+    }
+  },
+  "vip-band": {
+    "file": "demo/shop-xianxia/assets-r01/production/vip-band-reference.png",
+    "sha256": "fdebed42c76abe6053111cef0ab426615a3e8b23cd8bb5ea515a632e97b3b599",
+    "pixelSize": [
+      1317,
+      88
+    ],
+    "byteCount": 195629,
+    "alpha": {
+      "range": [
+        255,
+        255
+      ],
+      "transparent": 0,
+      "semitransparent": 0,
+      "opaque": 115896
+    },
+    "visibleBounds": [
+      0,
+      0,
+      1317,
+      88
+    ],
+    "provenance": {
+      "sourceName": "master.png",
+      "sourceSHA256": "9635a0cbe2cb007b0fae174c2b67b974cf70cf1ace7ba4b732855a276bcd313b",
+      "sourcePixelSize": [
+        1870,
+        841
+      ],
+      "sourceRect": [
+        273,
+        232,
+        1317,
+        88
+      ],
+      "operation": "RGBA pixel crop; no background removal",
+      "decodedPixelsEqual": true
+    }
+  },
+  "tab-selected": {
+    "file": "demo/shop-xianxia/assets-r01/production/tab-selected-reference.png",
+    "sha256": "f10f26a2a48589d12ba1a4c77aff178690da0f353be04edfc26645d531685243",
+    "pixelSize": [
+      290,
+      80
+    ],
+    "byteCount": 41599,
+    "alpha": {
+      "range": [
+        255,
+        255
+      ],
+      "transparent": 0,
+      "semitransparent": 0,
+      "opaque": 23200
+    },
+    "visibleBounds": [
+      0,
+      0,
+      290,
+      80
+    ],
+    "provenance": {
+      "sourceName": "master.png",
+      "sourceSHA256": "9635a0cbe2cb007b0fae174c2b67b974cf70cf1ace7ba4b732855a276bcd313b",
+      "sourcePixelSize": [
+        1870,
+        841
+      ],
+      "sourceRect": [
+        507,
+        151,
+        290,
+        80
+      ],
+      "operation": "RGBA pixel crop; no background removal",
+      "decodedPixelsEqual": true
+    }
+  },
+  "tab-normal": {
+    "file": "demo/shop-xianxia/assets-r01/production/tab-normal-reference.png",
+    "sha256": "7b369aba595277ef7b1d404a33d66948cf118ce570e0e14d43e6d5ac8dcd2cba",
+    "pixelSize": [
+      285,
+      80
+    ],
+    "byteCount": 34449,
+    "alpha": {
+      "range": [
+        255,
+        255
+      ],
+      "transparent": 0,
+      "semitransparent": 0,
+      "opaque": 22800
+    },
+    "visibleBounds": [
+      0,
+      0,
+      285,
+      80
+    ],
+    "provenance": {
+      "sourceName": "master.png",
+      "sourceSHA256": "9635a0cbe2cb007b0fae174c2b67b974cf70cf1ace7ba4b732855a276bcd313b",
+      "sourcePixelSize": [
+        1870,
+        841
+      ],
+      "sourceRect": [
+        795,
+        151,
+        285,
+        80
+      ],
+      "operation": "RGBA pixel crop; no background removal",
+      "decodedPixelsEqual": true
+    }
+  },
+  "vip-badge": {
+    "file": "demo/shop-xianxia/assets-r01/production/vip-badge-reference.png",
+    "sha256": "31e1a9fe27535467d56c1fe95de4fcc1a6ef1adcdd6ae415d15d18715e9a4513",
+    "pixelSize": [
+      122,
+      102
+    ],
+    "byteCount": 30925,
+    "alpha": {
+      "range": [
+        255,
+        255
+      ],
+      "transparent": 0,
+      "semitransparent": 0,
+      "opaque": 12444
+    },
+    "visibleBounds": [
+      0,
+      0,
+      122,
+      102
+    ],
+    "provenance": {
+      "sourceName": "master.png",
+      "sourceSHA256": "9635a0cbe2cb007b0fae174c2b67b974cf70cf1ace7ba4b732855a276bcd313b",
+      "sourcePixelSize": [
+        1870,
+        841
+      ],
+      "sourceRect": [
+        339,
+        220,
+        122,
+        102
+      ],
+      "operation": "RGBA pixel crop; no background removal",
+      "decodedPixelsEqual": true
+    }
+  }
+}

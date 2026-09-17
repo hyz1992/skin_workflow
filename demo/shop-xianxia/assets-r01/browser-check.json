@@ -1,0 +1,10 @@
+{
+  "technicalStatus": "passed",
+  "assets": 19,
+  "backgrounds": 4,
+  "sizeViews": 38,
+  "offline": true,
+  "pageErrors": [],
+  "networkRequests": [],
+  "visualApproval": "not-inferred"
+}
