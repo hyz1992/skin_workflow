@@ -1,0 +1,421 @@
+{
+  "format": "ui-skin-prototype-handoff-v1",
+  "id": "shop-xianxia-prototype-r01",
+  "entry": "prototype.html",
+  "status": "ready-for-user-review",
+  "entrySha256": "dc755359e8d347e8487290fc9db3dd43084536053fdd9f01536a78f20df4374c",
+  "sourceDesign": {
+    "id": "design-r01",
+    "pixelSize": [
+      1870,
+      841
+    ],
+    "sha256": "9635a0cbe2cb007b0fae174c2b67b974cf70cf1ace7ba4b732855a276bcd313b",
+    "approval": "用户已批准母版"
+  },
+  "assetSelection": {
+    "scope": "19 assets in assets-r01 selected for prototype assembly",
+    "userQuote": "OK，开始组装网页原型吧",
+    "manifestSha256": "dd5b50af6636d1bcb2d09e627d205266d5f7487027a4838955dfffc0f2a88661",
+    "prototypeApproval": null
+  },
+  "assets": [
+    {
+      "key": "panel",
+      "file": "png/panel.png",
+      "sha256": "c2056803ccc8d8081ce92d75fcbc91d2234051849b8d323cb3f44fdddcfb402d",
+      "pixelSize": [
+        1716,
+        916
+      ],
+      "contentRect": [
+        22,
+        30,
+        1671,
+        845
+      ]
+    },
+    {
+      "key": "title",
+      "file": "png/title.png",
+      "sha256": "e2fc8e83fa884f200fe5bbc52421b693fbebf6b1320ef12d9db123b9e41366a8",
+      "pixelSize": [
+        1774,
+        887
+      ],
+      "contentRect": [
+        189,
+        108,
+        1424,
+        673
+      ]
+    },
+    {
+      "key": "service",
+      "file": "png/service.png",
+      "sha256": "535cfbf2a3ffcddfe021895a61a1b0dfd2aec71d4e4e42787dd9ced7263f3bae",
+      "pixelSize": [
+        1317,
+        1194
+      ],
+      "contentRect": [
+        224,
+        146,
+        869,
+        863
+      ]
+    },
+    {
+      "key": "close",
+      "file": "png/close.png",
+      "sha256": "e6bbece2f1b5702376ad7b9cad26ebb13ca9cfa885bc83211dfae2be1ece5e76",
+      "pixelSize": [
+        1316,
+        1195
+      ],
+      "contentRect": [
+        275,
+        208,
+        760,
+        753
+      ]
+    },
+    {
+      "key": "tab-selected",
+      "file": "png/tab-selected.png",
+      "sha256": "350cc87966ef1eb7fcfb9043f7e25f57671d51aa196037211b33f16f6bf1ab23",
+      "pixelSize": [
+        2087,
+        753
+      ],
+      "contentRect": [
+        48,
+        110,
+        1991,
+        485
+      ]
+    },
+    {
+      "key": "tab-normal",
+      "file": "png/tab-normal.png",
+      "sha256": "37ca3a49cd4bf73826707b7fa50caa23607c8a1b80ef259deebc14b3ca7a3ad7",
+      "pixelSize": [
+        2048,
+        768
+      ],
+      "contentRect": [
+        29,
+        129,
+        1989,
+        495
+      ]
+    },
+    {
+      "key": "icon-diamond",
+      "file": "png/icon-diamond.png",
+      "sha256": "db53b9b33c9e83c3bcc7426d45e758ec743fb7c28b6a563212077a7b4a46e673",
+      "pixelSize": [
+        1355,
+        1161
+      ],
+      "contentRect": [
+        101,
+        143,
+        1133,
+        886
+      ]
+    },
+    {
+      "key": "icon-coin",
+      "file": "png/icon-coin.png",
+      "sha256": "a3c97624e3e824e152734ce493a37ec221f0d457ef2781c1ad4800a1d5eae2d6",
+      "pixelSize": [
+        1292,
+        1217
+      ],
+      "contentRect": [
+        211,
+        178,
+        865,
+        844
+      ]
+    },
+    {
+      "key": "icon-energy",
+      "file": "png/icon-energy.png",
+      "sha256": "bb53e713c1e9c0cb91ea3267132affbca4f1f137438736955987169bd687e817",
+      "pixelSize": [
+        1334,
+        1179
+      ],
+      "contentRect": [
+        325,
+        191,
+        735,
+        861
+      ]
+    },
+    {
+      "key": "vip-band",
+      "file": "png/vip-band.png",
+      "sha256": "a2e64ca8393d39b9c56810ae096a46fb72a3924a9e37bbe05dfa5f98d99fad9c",
+      "pixelSize": [
+        2172,
+        724
+      ],
+      "contentRect": [
+        25,
+        270,
+        2122,
+        181
+      ]
+    },
+    {
+      "key": "vip-badge",
+      "file": "png/vip-badge.png",
+      "sha256": "654aa819bb24e171e10a2c4beab8e88e73d1bd21dcdb151d5c642c6f72e10ac7",
+      "pixelSize": [
+        1410,
+        1115
+      ],
+      "contentRect": [
+        36,
+        8,
+        1337,
+        1083
+      ]
+    },
+    {
+      "key": "privilege",
+      "file": "png/privilege.png",
+      "sha256": "5f520211e9324fd9b53cd41f3ad1890046da034c0f833d7371656a2262919f32",
+      "pixelSize": [
+        2156,
+        729
+      ],
+      "contentRect": [
+        359,
+        137,
+        1438,
+        448
+      ]
+    },
+    {
+      "key": "card-base",
+      "file": "png/card-base.png",
+      "sha256": "38e3690bccb5df2100cb6676bfd4b257c0c5c49b4d4cf390bf5864bf79da9467",
+      "pixelSize": [
+        1006,
+        1564
+      ],
+      "contentRect": [
+        34,
+        32,
+        938,
+        1500
+      ]
+    },
+    {
+      "key": "buy-base",
+      "file": "png/buy-base.png",
+      "sha256": "b58e46ad948f22744d371939e0f0ae0b93d992807c1d0c94dd136c8f3d5db5cd",
+      "pixelSize": [
+        2071,
+        759
+      ],
+      "contentRect": [
+        140,
+        101,
+        1791,
+        502
+      ]
+    },
+    {
+      "key": "gems-small",
+      "file": "png/gems-small.png",
+      "sha256": "cb2fe0e3b80c517817d07cc42ea0a1ca251a3816497aa7cdbeaa57367ff9f1f5",
+      "pixelSize": [
+        1277,
+        1232
+      ],
+      "contentRect": [
+        108,
+        125,
+        1086,
+        1015
+      ]
+    },
+    {
+      "key": "gems-single",
+      "file": "png/gems-single.png",
+      "sha256": "1e3297233e59d5fa1703056bd81b9a2a1a14a96ca736279e257eb90ff621e000",
+      "pixelSize": [
+        1536,
+        1024
+      ],
+      "contentRect": [
+        253,
+        149,
+        1040,
+        765
+      ]
+    },
+    {
+      "key": "gems-pair",
+      "file": "png/gems-pair.png",
+      "sha256": "5f6a34df03f4cf41b2a9024227799aa764afdd12b746eaf718c0f5d5e6495762",
+      "pixelSize": [
+        1419,
+        1108
+      ],
+      "contentRect": [
+        122,
+        126,
+        1193,
+        856
+      ]
+    },
+    {
+      "key": "gems-cluster",
+      "file": "png/gems-cluster.png",
+      "sha256": "39bb59a04805fcef4ec6a0c4d551498bcd086f1f5adbc4b6ecd2afd0236911de",
+      "pixelSize": [
+        1361,
+        1156
+      ],
+      "contentRect": [
+        137,
+        194,
+        1098,
+        817
+      ]
+    },
+    {
+      "key": "gems-pouch",
+      "file": "png/gems-pouch.png",
+      "sha256": "90cb638d1f8ee1a5f92e6741b9d46f10ba91a0051bd00ad517c881c6d4019731",
+      "pixelSize": [
+        1368,
+        1149
+      ],
+      "contentRect": [
+        50,
+        69,
+        1250,
+        1050
+      ]
+    }
+  ],
+  "layout": {
+    "designSize": [
+      1870,
+      841
+    ],
+    "coordinates": "top-left-y-down",
+    "units": "布局使用设计单位；每张 PNG 的原始像素通过 contentRect 映射至独立 DOM 组件；预览外壳按高度换算 CSS pixels。所有插画等比显示。",
+    "anchors": "商城居中，宽度封顶 1510 设计单位。头部图标靠右，标题居中；VIP 带与商品列表使用面板内边距；每张卡为独立组件。",
+    "wide": "逻辑宽度 >= 1350 时使用完整横版外框，五张卡随面板作有限等比缩放。预览可选择 20:9、16:9、21:9。",
+    "compact": "逻辑宽度 < 1350 时重排头部和 VIP，商品保留可读尺寸并横向滚动，适配 4:3 与 9:16。横版面板和 VIP 条不拉伸为竖版，用 CSS 青玉色容器/金边与宣纸色 VIP 载体承接。",
+    "window": "首次在小于 650 CSS px 的窗口打开时默认跟随窗口；外壳画幅选项仍可手动模拟固定比例。",
+    "hitAreas": "按钮采用原生 DOM，图像与文字放在内部 visual 层；按压仅缩放 visual，外层热区不动。横滑使用原生 overflow-x:auto，支持触控板/触屏和纵向鼠标滚轮转横向。",
+    "background": "仅提供中性墨青舞台；母版背后的大厅未切图，不伪造完整大厅。"
+  },
+  "typography": {
+    "bundledFonts": [],
+    "fallbacks": [
+      "system-ui",
+      "PingFang SC",
+      "Songti SC",
+      "SimSun",
+      "Georgia",
+      "serif"
+    ],
+    "note": "明确使用操作系统字体，无外部字体依赖。跨系统字形会不同，不声明字体逐像素还原。",
+    "sizes": "横版页签 35、数量 46、价格 36、VIP 22、底部 24 设计单位；长数字与紧凑布局分别调整，具体以页面 CSS 为准。"
+  },
+  "sampleData": {
+    "standard": [
+      {
+        "diamonds": 10,
+        "yuan": 1
+      },
+      {
+        "diamonds": 30,
+        "yuan": 3
+      },
+      {
+        "diamonds": 60,
+        "yuan": 6
+      },
+      {
+        "diamonds": 180,
+        "yuan": 18
+      },
+      {
+        "diamonds": 300,
+        "yuan": 30
+      }
+    ],
+    "vip": "VIP 0；再消耗10钻石升级为VIP1；初始进度为0。",
+    "stress": "长内容选项中的 VIP99、72%进度、长数量/价格仅为布局测试数据，不是新业务配置。"
+  },
+  "actions": {
+    "tabs": "钻石展示五档；金币/体力展示待补充商品的空态；支持箭头/Home/End。",
+    "purchase": "确认弹窗显示所点商品，可取消或演示购买，成功仅显示本地提示，不扣费。",
+    "service": "打开演示提示，未接客服。",
+    "privilege": "展示当前示例等级及已知加赠说明，不编造赠送比例。",
+    "close": "隐藏商城并显示打开商城入口。",
+    "states": [
+      "标准",
+      "长文案/长数字",
+      "空商品",
+      "购买不可用"
+    ],
+    "pressRecovery": [
+      "pointerup",
+      "pointerout",
+      "pointercancel",
+      "keyup",
+      "focusout",
+      "window blur",
+      "visibilitychange",
+      "resize",
+      "state change"
+    ]
+  },
+  "verification": {
+    "status": "passed",
+    "checks": [
+      "Five source-defined diamond packs; all assets loaded offline",
+      "Purchase dialog: cancel and simulated confirmation",
+      "Service, privileges, Escape, focus restoration",
+      "Tabs, arrow/Home navigation, unknown categories show empty state",
+      "Close and reopen",
+      "Stable hit box; press, leave, cancel, blur and Space key restoration",
+      "Disabled purchase controls",
+      "Empty diamond list",
+      "Four ratios; compact layout; horizontal wheel scroll; last long-data pack reachable",
+      "Reset restores view, data and selection",
+      "390×844 initial auto layout and long VIP copy"
+    ],
+    "pageErrors": [],
+    "networkRequests": []
+  },
+  "visualReview": {
+    "status": "AI自审通过，等待用户审核",
+    "viewed": [
+      "默认整页与母版结构对照",
+      "购买弹层",
+      "9:16长内容",
+      "4:3长内容与末档商品",
+      "390×844标准与长内容"
+    ],
+    "observations": "五卡数量与价格对齐；商品插画独立叠在卡底；紧凑布局 VIP 文案分行、滑动提示避开按钮。"
+  },
+  "limitations": [
+    "金币/体力商品、客服、权益和支付真实行为无源码或配置依据，仅演示交互。",
+    "竖屏容器为程序布局，不代表已经批准的新竖屏美术母版。",
+    "仅在当前环境 Chrome 实测；未覆盖所有浏览器、操作系统字体或原生设备。"
+  ],
+  "portability": "整体复制本目录后直接打开 prototype.html；无 fetch、ES module、CDN、后端、构建步骤、账号数据或真实网络请求。QA脚本及截图放在旁边的 prototype-qa-r01，不是运行依赖。"
+}

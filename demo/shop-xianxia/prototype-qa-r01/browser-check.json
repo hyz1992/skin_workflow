@@ -1,0 +1,18 @@
+{
+  "status": "passed",
+  "checks": [
+    "Five source-defined diamond packs; all assets loaded offline",
+    "Purchase dialog: cancel and simulated confirmation",
+    "Service, privileges, Escape, focus restoration",
+    "Tabs, arrow/Home navigation, unknown categories show empty state",
+    "Close and reopen",
+    "Stable hit box; press, leave, cancel, blur and Space key restoration",
+    "Disabled purchase controls",
+    "Empty diamond list",
+    "Four ratios; compact layout; horizontal wheel scroll; last long-data pack reachable",
+    "Reset restores view, data and selection",
+    "390×844 initial auto layout and long VIP copy"
+  ],
+  "pageErrors": [],
+  "networkRequests": []
+}
