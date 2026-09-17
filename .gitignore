@@ -1,0 +1,17 @@
+# 本地 Python 环境与缓存
+.venv/
+venv/
+__pycache__/
+*.py[cod]
+.pytest_cache/
+.coverage
+htmlcov/
+
+# 可再生的本地验证产物
+.ui-skin-check/
+
+# 系统文件与本地环境变量
+.DS_Store
+.env
+.env.*
+!.env.example

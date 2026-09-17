@@ -1,0 +1,4 @@
+interface:
+  display_name: "UI 换皮 · 资源"
+  short_description: "复用或制作独立切图，核对透明度、尺寸与来源并提供逐件预览"
+  default_prompt: "使用 $ui-skin-assets 为选定设计准备独立切图和逐件审核网页。"

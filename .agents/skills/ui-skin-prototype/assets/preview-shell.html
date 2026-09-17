@@ -1,0 +1,45 @@
+<!doctype html>
+<html lang="zh-CN">
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width,initial-scale=1">
+<title>UI 原型预览外壳</title>
+<style>
+*{box-sizing:border-box}body{margin:0;background:#eef1f4;color:#202c35;font:16px/1.5 system-ui}
+header{padding:20px;max-width:1400px;margin:auto}h1{font-size:24px;margin:0 0 8px}nav{display:flex;align-items:center;gap:14px;flex-wrap:wrap;margin-top:16px}button,select{font:inherit;padding:8px 12px}
+#viewport{position:relative;overflow:hidden;margin:16px auto;background:#172932;isolation:isolate}
+#scene{position:absolute;left:0;top:0;transform-origin:top left;height:var(--design-height);color:white}
+/* Page code owns real layout and narrow-screen reflow. The shell only provides coordinates. */
+.design-core{position:absolute;left:50%;top:0;width:var(--design-width);height:100%;transform:translateX(-50%)}
+.placeholder{position:absolute;inset:20%;display:grid;place-content:center;text-align:center;border:1px dashed #aabbc4;border-radius:16px}
+[data-press]{touch-action:manipulation;cursor:pointer}[data-press]>.visual{display:block;transition:transform 110ms ease;pointer-events:none}
+[data-press].pressed>.visual{transform:scale(.96)}[data-press]:focus-visible{outline:3px solid #65b8f2;outline-offset:4px}
+[data-press]:disabled{opacity:.5;cursor:default}@media(prefers-reduced-motion:reduce){[data-press]>.visual{transition:none}}
+</style>
+<header><h1>UI 原型预览外壳</h1><p>此文件只提供预览容器。请填入真实切图、布局和示例状态后交付。</p>
+<nav><label>画幅 <select id="ratio"><option value="design">设计画幅</option><option value="16/9">16:9</option><option value="21/9">21:9</option><option value="4/3">4:3</option><option value="9/16">9:16</option></select></label><label>状态 <select id="state"><option value="normal">标准</option><option value="long">长内容</option><option value="empty">空态</option></select></label><button id="reset">重置</button><output id="metrics"></output></nav></header>
+<div id="viewport"><div id="scene"><div class="design-core"><div class="placeholder">添加独立图片、动态文字和控件<br>不要用整页母版叠热点替代组件</div></div></div></div>
+<script>
+// Replace these with this task's design. They are examples, not a global UI convention.
+const design={width:800,height:600};
+const viewport=document.getElementById('viewport'),scene=document.getElementById('scene'),ratio=document.getElementById('ratio'),state=document.getElementById('state');
+scene.style.setProperty('--design-width',design.width+'px');scene.style.setProperty('--design-height',design.height+'px');
+function restore(){scene.querySelectorAll('.pressed').forEach(n=>n.classList.remove('pressed'))}
+function resize(){
+ restore();const [a,b]=ratio.value==='design'?[design.width,design.height]:ratio.value.split('/').map(Number),aspect=a/b;
+ const availableWidth=Math.max(1,document.documentElement.clientWidth-32),availableHeight=Math.max(80,window.innerHeight-document.querySelector('header').getBoundingClientRect().height-48);
+ const width=Math.min(availableWidth,availableHeight*aspect),height=width/aspect,scale=height/design.height,logicalWidth=design.height*aspect;
+ Object.assign(viewport.style,{width:width+'px',height:height+'px'});Object.assign(scene.style,{width:logicalWidth+'px',transform:`scale(${scale})`});
+ document.getElementById('metrics').textContent=`设计单位 ${Math.round(logicalWidth)} × ${design.height}`;
+ scene.dispatchEvent(new CustomEvent('ui-layout',{detail:{width:logicalWidth,height:design.height,scale}}));
+}
+function control(event){const n=event.target.closest('[data-press]');return n&&scene.contains(n)&&!n.disabled?n:null}
+scene.addEventListener('pointerdown',e=>{const n=control(e);if(n&&(e.pointerType!=='mouse'||e.button===0))n.classList.add('pressed')});
+scene.addEventListener('pointerout',e=>{const n=control(e);if(n&&!n.contains(e.relatedTarget))n.classList.remove('pressed')});
+scene.addEventListener('keydown',e=>{const n=control(e);if(n&&(e.key===' '||e.key==='Enter'))n.classList.add('pressed')});
+scene.addEventListener('focusout',e=>{const n=e.target.closest('[data-press]');if(n)n.classList.remove('pressed')});
+['pointerup','pointercancel','keyup','blur'].forEach(type=>window.addEventListener(type,restore));document.addEventListener('visibilitychange',restore);
+ratio.addEventListener('change',resize);state.addEventListener('change',()=>{restore();scene.dispatchEvent(new CustomEvent('ui-state',{detail:{state:state.value}}))});
+document.getElementById('reset').onclick=()=>{ratio.value='design';state.value='normal';resize();state.dispatchEvent(new Event('change'))};window.addEventListener('resize',resize);resize();
+// Implement page state and actions with regular click events, not pointerdown commits.
+</script>
+</html>

@@ -1,0 +1,4 @@
+interface:
+  display_name: "UI 换皮 · 设计"
+  short_description: "从真实页面与状态出发，制作可继续拆图和组装的完整视觉设计"
+  default_prompt: "使用 $ui-skin-design 为我指定的页面设计新风格，并提供母版和组件清单。"

@@ -1,0 +1,4 @@
+interface:
+  display_name: "UI 换皮 · 原型"
+  short_description: "用实际切图组装可离线交互网页，检查布局、状态与控件反馈"
+  default_prompt: "使用 $ui-skin-prototype 将选定切图组装成可离线运行的交互原型。"
