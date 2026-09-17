@@ -15,3 +15,11 @@ htmlcov/
 .env
 .env.*
 !.env.example
+
+# 商城案例的可再生浏览器截图与历史预览（源素材和最终交付仍入库）
+/demo/**/prototype-qa-*/*.png
+/demo/**/assets-*/production/diagnostic-*.png
+/demo/**/assets-*/production/edge-*.png
+/demo/**/assets-*/production/review-*.png
+/demo/**/assets-*/production/*.html
+/demo/**/assets-*/diagnostic-preview.html
