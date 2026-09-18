@@ -178,7 +178,7 @@ demo/
 | 追溯制作过程 | 对应阶段的说明、提示词、来源记录和 `production/` |
 | 在另一个项目复用换皮方法 | 项目根目录 `.agents/skills/` 中的三个 `ui-skin-*` 目录；不需要本 demo |
 
-运行原型无需 Python、Node、构建命令、服务端或网络。制作和验证脚本另有 Python/Pillow、Playwright/浏览器等环境要求；案例中的部分 QA 脚本记录了当时机器的运行时路径，需要按本机环境调整后再复用。不要把 `production/` 的历史脚本当作必须依次运行的流水线，其中部分脚本用于重现早期诊断或拒绝覆盖已有交付。
+运行原型无需 Python、Node、构建命令、服务端或网络。制作和验证脚本另有 Python/Pillow、Playwright/浏览器等环境要求。案例 QA 脚本可通过 `UI_SKIN_PLAYWRIGHT_PATH` 指定 Playwright 模块、通过 `UI_SKIN_CHROME_PATH` 指定浏览器；不设置时使用已安装的 `playwright` 模块及其 Chromium。不要把 `production/` 的历史脚本当作必须依次运行的流水线：部分脚本用于重现早期诊断，打包脚本会拒绝覆盖已有交付。生成日志的来源路径已归一化为日志所在目录内的文件，并附文件哈希，原始生图提示词保持不变。
 
 ## 阶段提交与当前状态
 

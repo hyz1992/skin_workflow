@@ -1,8 +1,10 @@
-const {chromium}=require('/Users/hyz/.cache/codex-runtimes/codex-primary-runtime/dependencies/node/node_modules/playwright');
+const {chromium}=require(process.env.UI_SKIN_PLAYWRIGHT_PATH || 'playwright');
 const fs=require('fs'),path=require('path'),{pathToFileURL}=require('url');
 (async()=>{
  const base=path.resolve(__dirname,'..'),manifest=JSON.parse(fs.readFileSync(path.join(base,'assets.json'),'utf8'));
- const browser=await chromium.launch({headless:true,executablePath:'/Applications/Google Chrome.app/Contents/MacOS/Google Chrome'});
+ const options={headless:true};
+ if(process.env.UI_SKIN_CHROME_PATH) options.executablePath=process.env.UI_SKIN_CHROME_PATH;
+ const browser=await chromium.launch(options);
  try{
   const page=await browser.newPage({viewport:{width:1440,height:1100}}),errors=[],network=[];
   page.on('pageerror',e=>errors.push(e.message));page.on('request',r=>{if(/^https?:/.test(r.url()))network.push(r.url())});

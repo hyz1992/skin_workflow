@@ -5,7 +5,7 @@ description: 用选定 UI 切图和 HTML/CSS/JS 组装可离线运行的交互�
 
 # UI 换皮网页原型
 
-从本次设计、选定资源与用户要求直接组装真实组件。三个 ui-skin 目录一起分发；共享检查工具位于相邻 `../ui-skin-assets/scripts/assets.py`。不依赖来源项目的文档、引擎或原生截图。
+从本次设计、选定资源与用户要求直接组装真实组件。三个 ui-skin 目录一起分发；共享检查工具位于相邻 `../ui-skin-assets/scripts/assets.py`。组装所需资料以本次设计、资源和目标页面约定为准。
 
 ## 获取布局与资源
 
